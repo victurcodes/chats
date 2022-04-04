@@ -38,7 +38,6 @@
         background: var(--White);
         width: 60%;
         padding: 10px;
-        /* margin: 12px; */
         border-radius: 10px;
         margin: 10px 6rem;
         color: var(--Desaturated-Dark-Violet-chat-on-the-right);
@@ -72,7 +71,6 @@
         height: 70vh;
         background: var(--Moderate-Violet-chat-on-the-left);
         border-bottom-right-radius: 190px;
-        /* border-bottom-left-radius: 15px; */
     }
     
     .main-wrapper .section .wrapper .card {
@@ -93,7 +91,6 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         width: 100%;
-        /* border: none; */
     }
     
     .main-wrapper .section .wrapper .card::before {
@@ -113,13 +110,11 @@
     .main-wrapper .section .wrapper .card .chat-header .header-content {
         display: flex;
         justify-content: space-between;
-        /* padding-bottom: 20px; */
         align-items: baseline;
     }
     
     .main-wrapper .section .wrapper .card .chat-header .header-content .icon-right {
         color: var(--White);
-        /* padding-right: 10px; */
     }
     
     .main-wrapper .section .wrapper .card .chat-header .header-content .header-left {
@@ -142,7 +137,6 @@
     
     .main-wrapper .section .wrapper .card .chat-header .header-content .header-left>.icon-left {
         padding: 10px 0 10px 10px;
-        /* background: wheat; */
         color: var(--White);
     }
     
@@ -150,7 +144,6 @@
         width: 30px;
         height: 30px;
         display: inline-block;
-        /* object-fit: cover; */
         border-radius: 50%;
         border: 2px solid white;
     }
@@ -160,14 +153,13 @@
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         margin-bottom: 20px;
-        height: 96vh;
         padding-top: 5px;
         margin-bottom: 10px;
+        padding-bottom: 10px;
     }
     
     .main-wrapper .section .wrapper .card .chat-body .chat-article-1 {
         display: block;
-        /* margin-top: 10px; */
     }
     
     .main-wrapper .section .wrapper .card .image .first-image {
@@ -268,7 +260,7 @@
     .main-wrapper .section .wrapper .card .chat-body .chat-article-8>.icon {
         color: var(--White);
         background: var(--Very-Dark-Desaturated-Violet-submit-button-background);
-        padding: 6px 10px;
+        padding: 8px 13px;
         border-radius: 50%;
         margin-bottom: 10px;
     }
@@ -281,7 +273,7 @@
     .main-wrapper .section .footer {
         padding: 40px 20px;
         text-align: center;
-        margin-top: 100%;
+        margin-top: 90%;
         margin-bottom: 0;
     }
     
@@ -297,6 +289,12 @@
         line-height: 30px;
         font-size: 20px;
         padding: 0 10px;
+    }
+    
+    @media screen and (min-width: 414px) {
+        .main-wrapper .section .footer {
+            margin-top: 12rem;
+        }
     }
     
     @media screen and (min-width: 1100px) {
@@ -318,7 +316,6 @@
             position: absolute;
             top: 70px;
             left: 320px;
-            /* height: 90vh; */
         }
         .main-wrapper .section .wrapper .card .chat-body {
             height: 75vh;
@@ -354,7 +351,6 @@
         .main-wrapper .section .wrapper .card .chat-body .chat-article-8 {
             margin: 0 5px 0 5px;
             border-radius: 50px;
-            /* margin-bottom: 5px; */
             padding: 8px 10px 2px 10px;
         }
         .main-wrapper .section .footer {
